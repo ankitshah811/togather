@@ -1,0 +1,75 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: #009AFF;
+	height: 100%;
+}
+
+.flexbox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.item {
+	flex: 1;
+}
+
+.item img {
+	max-width: 350px;
+}
+
+.background {
+	text-align: right;
+	margin-right: 25px;
+}
+
+.main {
+	padding: 2em;
+}
+
+.background img {
+	opacity: 0.75;
+}
+
+.main img {
+	padding: 0 25px;
+}
+
+#break {
+	height: 10px;
+	width: 100%;
+	max-width: 400px;
+	background: white;
+	margin: 25px 0;
+}
+
+.description {
+	max-width: 400px;
+	margin-left: -5px;
+	padding: 35px 5px;
+	background: white;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.contact-us {
+	max-width: 400px;
+	padding: 0px 25px;
+	margin-top: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+    .background {
+    	display: none;
+    }
+}
